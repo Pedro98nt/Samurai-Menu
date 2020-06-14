@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pedro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="navigation">
+            <input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation_button">
+                <span class="navigation_icon"></span>
+            </label>
+            <div class="navigation_background">
+                &nbsp;
+            </div>
+            <nav class="navigation_nav">
+                <ul class="navigation_list">
+                    <li class="navigation_item"><a href="#" onmouseenter="playAudio()" class="navigation_link"><span>一つ</span>カタナス</a></li>
+                    <li class="navigation_item"><a href="#" onmouseenter="playAudio()" class="navigation_link"><span>二</span>鬼マスク</a></li>
+                    <li class="navigation_item"><a href="#" onmouseenter="playAudio()" class="navigation_link"><span>三</span>武士</a></li>
+                    <li class="navigation_item"><a href="#" onmouseenter="playAudio()" class="navigation_link"><span>四</span>暗殺忍者</a></li>
+                    <li class="navigation_item"><a href="#" onmouseenter="playAudio()" class="navigation_link"><span>五</span>天狗マスク</a></li>
+                </ul>
+            </nav>
+     </div>
+      
+      <audio id="audioID">
+         <source src="http://sfxcontent.s3.amazonaws.com/soundfx/Knife-Slice.mp3" type="audio/mpeg">
+      </audio>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
